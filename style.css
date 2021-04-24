@@ -4,7 +4,7 @@ body{
 }
 #content{
     padding:10px;
-    font-family: cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: moccasin;
     text-align: center;
     width: 97%;
@@ -65,9 +65,6 @@ span{
     }
     h4{
         font-size: 0.83em;
-    }
-    p{
-        font-size:15px;
     }
     form{
         font-size: medium;
