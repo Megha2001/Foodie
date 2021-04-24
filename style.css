@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(97, 108, 119);
+    margin:0;
+}
+#content{
+    padding:10px;
+    font-family: cursive;
+    background-color: moccasin;
+    text-align: center;
+    width: 97%;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+p{
+    font-size:20px;
+}
+.fooditem,.quan{
+    font-style: oblique;
+    color: navy;
+}
+table{
+    margin: 0 auto;
+    text-align: left;
+}
+form{
+    font-size: large;
+}
+.ordersummary{
+    font-family: cursive;
+    padding: 6px;
+    border:2px solid;
+    font-size: large;
+    font-weight: bold;
+}
+span{
+    font-size: medium;
+}
+
+#mycarousel, .carousel-inner, .item{
+    height:300px;
+}
+.carousel-inner .item img{
+    height:100%;
+    width:100%;
+    border-radius:15px;
+}
+.carousel{
+    margin:0 auto;
+    width:50%;
+}
+
+@media screen and (max-width:700px){
+    #content{
+        margin: 15px auto ;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.17em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    h4{
+        font-size: 0.83em;
+    }
+    p{
+        font-size:15px;
+    }
+    form{
+        font-size: medium;
+    }
+    .ordersummary{
+        padding:3px;
+        border:1px solid;
+        font-size:medium;
+    }
+    span{
+        font-size:small;
+    }
+    .detailsize{
+        width:240px;
+    }
+    .quansize{
+        width: 160px;
+    }
+    #mycarousel, .carousel-inner, .item{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .detailsize{
+        width:200px;
+    }
+    .quansize{
+        width: 90px;
+    }
+    #mycarousel, .carousel-inner, .item{
+        height:150px;
+    }
+}
